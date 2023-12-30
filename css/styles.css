@@ -16,12 +16,15 @@ body{
     display: flex;
 
 }
+
 .container{
     color: #fff;
     margin: 0 auto;
     text-align: center;
     
 }
+
+/*TEXT "HAPPY NEW YEAR"*/
 h1{
     font-weight: normal;
     letter-spacing: .125rem;
@@ -30,6 +33,23 @@ h1{
     z-index: 100;
 }
 
+/*TEXT YEARS*/
+.year_text span{
+    font-size: 20rem;
+    letter-spacing: 2rem;
+    padding: 0 .5rem;
+    z-index: 100;
+}
+
+/*TIMER*/
+li span{
+    display: block;
+    font-size: 10.5rem;
+    z-index: 100;
+    text-align : center;
+}
+
+/*TEXT TIMER*/
 li{
     display: inline-block;
     font-size: 1.5rem;
@@ -40,30 +60,25 @@ li{
     text-align :center;
 }
 
-li span{
-    display: block;
-    font-size: 10.5rem;
-    z-index: 100;
-    text-align : center;
-}
-
-.year_text{
-    display: none;
-}
-
-.year_text span{
-    font-size: 20rem;
-    padding: 0 .5rem;
-    z-index: 100;
-}
-
+/*SECOND ONLY*/
 .new_sub_timer span{
-    font-size: 20rem;
+    font-size: 30rem;
     padding: 0 .5rem;
     z-index: 100;
     text-align: center;
 }
 
+.sub_timer{
+    width: 250px;
+    text-align: center;
+}
+
+.new_sub_timer{
+    width: 750px;
+    text-align: center;
+}
+
+/*FIREWORKS*/
 .fireworks-container {
     position: fixed;
     left: 0;
@@ -74,14 +89,4 @@ li span{
     background-size: cover;
     background-repeat: no-repeat;
 	z-index: -1;
-}
-
-.sub_timer{
-    width: 250px;
-    text-align: center;
-}
-
-.new_sub_timer{
-    width: 250px;
-    text-align: center;
 }
