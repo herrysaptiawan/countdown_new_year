@@ -5,7 +5,7 @@ const   second = 1000,
         fireworkContainer = document.querySelector('.fireworks-container')
 
 // SET DATE NEW YEAR
-let new_year = "Jan 1, 2024 00:00:00",
+let new_year = "Jan 1, 2025 00:00:00",
 
 // SET DATE TESTING ONLY
 //let new_year = "Dec 30, 2023 12:45:00",
@@ -35,7 +35,7 @@ let new_year = "Jan 1, 2024 00:00:00",
             document.getElementById("half").style.display = "block";
         }
 
-        if (distance <= second) {
+        if (distance <= 0) {
             document.getElementById("new-year-text").style.display = "block";
             document.getElementById("countdown").style.display = "none";
             document.getElementById("year_text").style.display = "block";
